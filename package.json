@@ -1,8 +1,11 @@
 {
   "name": "anydoor-zwl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a mod from imook.Use to learn Node",
-  "main": "index.js",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor-zwl":"bin/anydoor-zwl"
+  },
   "scripts": {
     "lint": "eslint .",
     "fix": "eslint --fix ."
@@ -28,6 +31,7 @@
   },
   "dependencies": {
     "chalk": "^2.4.2",
-    "handlebars": "^4.1.2"
+    "handlebars": "^4.1.2",
+    "yargs": "^13.3.0"
   }
 }
